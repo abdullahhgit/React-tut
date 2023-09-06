@@ -1,9 +1,11 @@
 import './App.css';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello This is React.js Starter project files</h1>
+      <h1>My Priorites for Today</h1>
+      <TodoList />
     </div>
   );
 }
